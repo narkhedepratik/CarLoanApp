@@ -14,7 +14,7 @@ import org.springframework.web.service.annotation.GetExchange;
 	}
 
 	 @GetMapping("/get-all-enquiries")
-	public String testApi()
+	public String getAllEnquiries()
 	{
 		
 		return "No enquiries yet";
