@@ -12,5 +12,12 @@ import org.springframework.web.service.annotation.GetExchange;
 	{
 		return "I am running fine";
 	}
+
+	 @GetMapping("/get-all-enquiries")
+	public String testApi()
+	{
+		
+		return "No enquiries yet";
+	}
 	 
  }
